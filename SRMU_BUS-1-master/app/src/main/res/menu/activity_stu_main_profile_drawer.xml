@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Home"/>
+        <item
+            android:id="@+id/menu1"
+            android:icon="@drawable/profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/menu20"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Menu 2" />
+        <item
+            android:id="@+id/menu3"
+            android:icon="@drawable/bus_tag"
+            android:title="Bus Details" />
+        <item
+            android:id="@+id/menu4"
+            android:icon="@drawable/bus_route"
+            android:title="Bus Route" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/fedback_btn"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logoutbtn"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
