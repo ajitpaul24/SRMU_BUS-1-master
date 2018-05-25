@@ -44,6 +44,7 @@ The project is divided into 3 modules: -
 
 Driver module:
 The authorized bus drivers are provided with their unique log in credentials. They need to log in and then have to start their location service before driving. The current location of the bus will be updated from driver’s mobile to the server every moment in the form of latitude and longitude.
+
 Client module: -
 The users of this module need to log in with their unique ID provided by the college management. They can get access to the details of all the buses of college through their phones. Here they will get all bus and driver related information. Students can track the location of their bus from any location. Student and staff must make sure that their location service is active. They can also get the estimated time of arrival of bus at their respective stops.
 
